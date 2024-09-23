@@ -33,6 +33,10 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 
+#esto es para el error ktx que supuestamente es de animacion. de esta manera no funciono XD
+#Investigar el por que.
+#room.ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
